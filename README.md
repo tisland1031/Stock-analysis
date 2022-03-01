@@ -1,21 +1,22 @@
 # Stock-analysis
 ## Overview of Project
-The project entails performing data analysis for stocks in years 2017 and 2018. The original code used nesting loop statements to analyze a small set of data. The client would like to analysis the entire stock market compared to the original analysis of 12 stocks. 
+The project entailed performing data analysis for stocks in years 2017 and 2018. The original code used nesting loop statements to analyze a small set of data. The client would like to analysis the entire stock market compared to the original analysis of ony 12 stocks. 
 
 ### Purpose
-The purpose of this project was to refactor the original code in Visual Basic Application (VBA) for all stocks in both years, 2017 and 2018, and witness an increase in macro run time and efficiency compared to the orginal script.  
+The purpose of this project was to refactor the original code in Visual Basic Application (VBA) for all stocks in both years, 2017 and 2018, and witness an increase in macro run time and efficiency while comparing the orginal script.  
 
 ## Results
 ### Analysis of Original VBA Script
 The original script was written using a nested loop. The loop ran through each data set for only 12 stocks. 
 
-The orginal code below demonstrated a run time of 0.703125 seconds and 0.65625 seconds.
+- The orginal code below demonstrated 
+
 
 ![VBA_Challenge_Original Code](https://user-images.githubusercontent.com/96746207/155914923-878c4773-c985-40cf-99c3-bb0435cd18c0.png)
 
-The original script took longer to run for only 12 stocks. The below information produced run times around 
-![VBA_Challenge_2017_Original Code](https://user-images.githubusercontent.com/96746207/155915599-cca68b1c-64aa-4484-9cfa-c38308e8d63d.png)
+The original script took longer to run for only 12 stocks. The below information produced run times of 0.703125 seconds and 0.65625 seconds.
 
+![VBA_Challenge_2017_Original Code](https://user-images.githubusercontent.com/96746207/155915599-cca68b1c-64aa-4484-9cfa-c38308e8d63d.png)
 ![VBA_Challenge_2018_Original Code](https://user-images.githubusercontent.com/96746207/155915624-8839de84-36d2-47ca-92cf-aa938cfac70a.png)
 
 
@@ -26,10 +27,9 @@ The refactored script created three output arrays:tickervolume, tickerStartingpr
 
 ![VBA_Challenge_Refactored Code ](https://user-images.githubusercontent.com/96746207/155914948-6818a104-7b1d-4944-983c-a6f35dd3083f.png)
 
-The refactored code below demonstrated a faster macro run time for both years, 0.0703125.
+- The refactored code below demonstrated a faster macro run time for both years, 0.0703125 seconds.
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/96746207/155912775-a5430d77-46b0-4171-8ce7-755f940fb4e9.png)
-
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/96746207/155912845-9252fdac-ac96-4f3f-98e6-e8d39db080b4.png)
 
 ## Summary
