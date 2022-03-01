@@ -29,7 +29,7 @@ The refactored script created three output arrays:tickervolume, tickerStartingpr
 
 - The refactored code below demonstrated a faster macro run time for both years, 0.0703125 seconds. 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/96746207/155912775-a5430d77-46b0-4171-8ce7-755f940fb4e9.png)
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/96746207/155912845-9252fdac-ac96-4f3f-98e6-e8d39db080b4.png)
+
 
 ## Summary
 -	Refactoring code has both advantages and disadvantages. Refactoring script significantly decreased the macro run time for the data set. While working with very large data set this would be extremely helpful, efficient and organized. However, refactoring code has disadvantages. The end user needs to be aware of duplicating code and/or making changes in the wrong area of the script. If not, the refactoring script will produce many errors.   
